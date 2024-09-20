@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONE CARD</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card-function">
+            <div class="card">
+                <img class="wifi" src="./images/wifi-solid.svg" width="40" height="30" title="img" />
+                <img class="atm-chip" src="./images/atm-chip.png" alt="atm-chip" width="45px" height="45px">
+                <h1 class="first">Ajeet</h1>
+                <h1 class="last">Vishwakarma</h1>
+                <h1 class="visa">VISA</h1>
+                <h6 class="signature">Signature</h6>
+                <h1 class="one">one</h1>
+            </div>
+        </div>
+    </div>
+    <script src="vannila-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+        });
+    </script>
+</body>
+
+</html>
